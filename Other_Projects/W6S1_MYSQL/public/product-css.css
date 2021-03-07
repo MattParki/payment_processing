@@ -1,0 +1,18 @@
+.star-rating {
+    background-color: grey;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+}
+
+.star-rating div {
+    height: 100%;
+    background-color: yellow;
+}
+
+textarea {
+    padding-top:10px;
+    padding-bottom:25px;
+    width:100%;
+    display:block;
+}
