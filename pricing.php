@@ -57,7 +57,7 @@
                         </div>
                         <div class="card-body text-center">
                             <div class="card-title">
-                                <h1>'.$attributes['title'].'</h1>
+                                <h2>'.$attributes['title'].'</h2>
                             </div>
                             <ul class="list-group">
                             ';
