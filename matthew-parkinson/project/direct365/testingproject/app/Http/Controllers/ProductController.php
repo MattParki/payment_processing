@@ -10,9 +10,9 @@ class ProductController extends Controller
     public function index() {
 
 
-        $product = Product::latest()->get();
+        $products = Product::latest()->get();
 
-        return view('product.index', [
+        return view('products.index', [
             'products' => $products,
         ]);
     }
@@ -46,6 +46,6 @@ class ProductController extends Controller
         $product = Product::findOrFail($id);
         $product->delete();
 
-        return redirect('/products/')->with('delete', 'Order complete');
+        return redirect('/products/createtheproduct/display/')->with('delete', 'Product Deleted Successfully!');
     }
 }
